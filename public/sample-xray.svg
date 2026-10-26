@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientTransform="matrix(0 440 -600 0 400 300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#65727b"/>
+      <stop offset="1" stop-color="#151c23"/>
+    </radialGradient>
+    <filter id="glow" x="140" y="30" width="520" height="540" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v600H0z"/>
+  <g opacity=".18" stroke="#d9e2e8">
+    <path d="M80 0v600M160 0v600M240 0v600M320 0v600M400 0v600M480 0v600M560 0v600M640 0v600M720 0v600"/>
+    <path d="M0 60h800M0 140h800M0 220h800M0 300h800M0 380h800M0 460h800M0 540h800"/>
+  </g>
+  <g filter="url(#glow)" opacity=".65" stroke="#e5edf2" stroke-linecap="round" stroke-width="33">
+    <path d="M318 52c9 89 35 157 82 222"/>
+    <path d="M482 52c-9 89-35 157-82 222"/>
+    <path d="M300 549c16-75 47-143 100-207"/>
+    <path d="M500 549c-16-75-47-143-100-207"/>
+  </g>
+  <g stroke="#e5edf2" stroke-linecap="round" stroke-width="22">
+    <path d="M318 52c9 89 35 157 82 222"/>
+    <path d="M482 52c-9 89-35 157-82 222"/>
+    <path d="M300 549c16-75 47-143 100-207"/>
+    <path d="M500 549c-16-75-47-143-100-207"/>
+  </g>
+  <ellipse cx="400" cy="302" fill="#10171d" rx="72" ry="48"/>
+  <ellipse cx="400" cy="302" stroke="#dce5ea" stroke-opacity=".85" stroke-width="8" rx="91" ry="64"/>
+  <path d="M345 296c22-18 88-18 110 0M349 316c26 16 76 16 102 0" stroke="#b9c6cd" stroke-linecap="round" stroke-opacity=".8" stroke-width="5"/>
+  <text x="24" y="572" fill="#dce5ea" font-family="Arial, sans-serif" font-size="16" letter-spacing="2">DEMO IMAGE · NOT FOR CLINICAL USE</text>
+</svg>
